@@ -29,11 +29,8 @@ jobs:
       matrix:
         arch:
         - mipsel_24kc
-
-        
         sdk:
-          - 25.04
-          - SNAPSHOT
+        - SNAPSHOT
 
     steps:
       - uses: actions/checkout@v4
